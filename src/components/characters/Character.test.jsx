@@ -9,7 +9,7 @@ describe('Character component', () => {
         name="Text Character"
         species="Human"
         status="Alive"
-        image="https://image.com/image.png"
+        image="http://image.com/image.png"
       />
     );
     expect(asFragment()).toMatchSnapshot();

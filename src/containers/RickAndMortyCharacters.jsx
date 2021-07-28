@@ -10,7 +10,8 @@ export default class RickAndMortyCharacters extends Component {
 
   async componentDidMount() {
     const characters = await fetchCharacters();
-    this.setState({  characters, loading: false });
+    console.log(characters);
+    this.setState({ characters, loading: false });
   }
 
   render() {
